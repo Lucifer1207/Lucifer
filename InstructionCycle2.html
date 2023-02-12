@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+InstructionCycle2
+        </title>
+    </head>
+    <style>
+   body{
+    background-color: burlywood;
+    color:black;
+   }
+   #heading{
+        font-size: 65px;
+        text-align: center;
+       }
+       #def{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        text-align: center;
+        font-size: 35px;
+       }
+   #line{
+        width: 100%;
+        height: 5px;
+        background-color:black;
+       }
+       #x{
+font-size: 40px;
+       }
+       #list{
+        font-size: 30px;
+       }
+       #def1{
+         font-size:25px;
+       }
+       li{
+        font-size: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+       }
+       img{
+        width: 40%;
+        padding-left: 25%;
+        padding-bottom: 2%;
+       }
+
+       #def2{
+         font-size: 25px;
+       }
+       button {
+        font-size: 40px;
+        background-color: black;
+        color: burlywood;
+        border-radius: 50%;
+        padding:auto; 
+        text-align: center;
+}
+
+
+    </style>
+  <body>
+    <div class="line" id="line"></div>
+     <h1 class="heading" id="heading">
+        Instruction Cycle
+     </h1>
+     <div class="line" id="line"></div>
+     <p class="def" id="def">
+        <strong class="x" id="x">"A program</strong><br> residing in the memory unit of a computer <br> consists of a sequence of instructions. These instructions are executed by<br> the processor by going through a cycle for each instruction." 
+     </p>
+     <div class="line" id="line"></div>
+     <br><br>
+     <ul class="list" id="list">
+        In a basic computer, each instruction cycle consists of the following phases:<br><br>
+        <li><strong>Fetch</strong> instruction from memory.</li>
+        <li><strong>Decode</strong> the instruction.</li>
+        <li><strong>Read</strong> the effective address from memory.</li>
+        <li><strong>Execute</strong> the instruction.</li>
+       </ul><br><br>
+       <img src="https://static.javatpoint.com/tutorial/coa/images/instruction-cycle.png" alt="pic"><br><br>
+       <div class="line" id="line"></div>
+       <ul class="list1" id="list1">
+        
+        <li><strong>Fetch -> Decode</strong></li>
+        <li><strong>Decode -> Read</strong></li>
+        <li><strong>Read -> Execute</strong></li>
+        <li><strong>Execute -> Fetch</strong></li>
+       </ul>
+       <div class="line" id="line"></div><br><br>
+         <h2>So....Let's Move forward to our next topic.</h2><br>
+       <h1>**Input-Output Configuration**</h1><br>
+       <p class="def1" id="def1">In computer architecture, input-output devices act as an interface between the machine and the user.<br>
+
+         Instructions and data stored in the memory must come from some input device. The results are displayed to the user through some output device.</p>
+         <p class="def2" id="def2">The following block diagram shows the input-output configuration for a basic computer.</p><br>
+         <h2>Input-Output Configuration:</h2><br>
+         <img src="https://static.javatpoint.com/tutorial/coa/images/instruction-cycle2.png" alt="pic">
+         <div class="line" id="line"></div><br><br>
+         <ul class="list1" id="list1">
+            <li>The input-output terminals send and receive information.</li>
+            <li>The amount of information transferred will always have eight bits of an alphanumeric code.</li>
+            <li>The information generated through the keyboard is shifted into an input register 'INPR'.</li>
+            <li>The information for the printer is stored in the output register 'OUTR'.</li>
+            <li>Registers INPR and OUTR communicate with a communication interface serially and with the AC in parallel.</li>
+            <li>The transmitter interface receives information from the keyboard and transmits it to INPR.</li>
+         </ul><br>
+         <div class="line" id="line"></div><br><br>
+         <a href="Design.html" >
+            <button type="button"> Next Topic </button>
+        </a>
+
+
+  </body>
+</html>

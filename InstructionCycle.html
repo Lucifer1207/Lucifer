@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+           Instruction Cycle
+        </title>
+    </head>
+    <style>
+       body{
+        background-color: burlywood;
+        color: black;
+       }
+        
+       #heading{
+        font-size: 65px;
+        text-align: center;
+       }
+     
+       #line{
+        width: 100%;
+        height: 5px;
+        background-color:black;
+       }
+
+       #def{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        text-align: center;
+        font-size: 35px;
+       }
+       #list{
+        font-size: 30px;
+       }
+
+       li{
+        font-size: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+       }
+       img{
+        padding-left: 15%;
+        width:35%;
+        height: 50px;
+        padding-bottom: 3%;
+       }
+
+       #m1{
+        font-size: 25px;
+       }
+
+       button {
+        font-size: 40px;
+        background-color: black;
+        color:burlywood;
+        border-radius: 50%;
+        padding:auto; 
+        text-align: center;
+}
+
+    </style>
+    <body>
+    <br>
+    <h1>Now....Let's Learn About Instruction Cycle.</h1><br>
+        <div class="line" id="line"></div>
+       <h1 class="heading" id="heading"> Instruction Cycle </h1>
+       <div class="line" id="line"></div>
+       <br><br><br>
+       <p class="def" id="def">"<strong> Computer instructions</strong> are <br> a set of machine language instructions<br> that a particular processor understands and executes.<br> A computer performs tasks on the basis of the instruction provided."</p>
+       <div class="line" id="line"></div>
+       <br>
+       <br>
+       <br>
+       <ul class="list" id="list">
+        An instruction comprises of groups called fields. These fields include:<br><br>
+        <li>The Operation code (Opcode) field which specifies the operation to be performed.</li>
+        <li>The Address field which contains the location of the operand, i.e., register or memory location.</li>
+        <li>The Mode field which specifies how the operand will be located.</li>
+       </ul>
+       <img src="https://static.javatpoint.com/tutorial/coa/images/computer-instructions.png" alt="instruction">
+       <div class="line" id="line"></div>
+        <br><br>
+        <ul class="list" id="list">
+            A basic computer has three instruction code formats which are:<br><br>
+            <li>Memory - reference instruction </li>
+            <li>Register - reference instruction</li>
+            <li>Input-Output instruction</li>
+        </ul>
+        <div class="line" id="line"></div>
+        <h1> 1. Memory - reference instruction </h1>
+        <img src="https://static.javatpoint.com/tutorial/coa/images/computer-instructions2.png" alt="pic">
+        <p class="m1" id="m1">In Memory-reference instruction, 12 bits of memory is used to specify an address and one bit to specify the addressing mode 'I'. </p>
+        <div class="line" id="line"></div><br><br>
+
+        <h1>2. Register - reference instruction</h1>
+        <img src="https://static.javatpoint.com/tutorial/coa/images/computer-instructions3.png" alt="pic">
+        <p class="m1" id="m1">The Register-reference instructions are represented by the Opcode 111 with a 0 in the leftmost bit (bit 15) of the instruction.  </p>
+        <div class="line" id="line"></div><br><br>
+
+        <h1>3. Input-Output instruction</h1>
+        <img src="https://static.javatpoint.com/tutorial/coa/images/computer-instructions4.png" alt="pic">
+        <p class="m1" id="m1">Just like the Register-reference instruction, an Input-Output instruction does not need a reference to memory<br> and is recognized by the operation code 111 with a 1 in the leftmost bit of the instruction.<br> The remaining 12 bits are used to specify the type of the input-output operation or test performed.  </p>
+        <div class="line" id="line"></div><br><br>
+
+        <h2>NOTE -> </h2><br>
+        <ul>
+        <li>The three operation code bits in positions 12 through 14 should be equal to 111. Otherwise, the instruction is<br> a memory-reference type, and the bit in position 15 is taken as the addressing mode I.</li>
+        <li>When the three operation code bits are equal to 111, control unit inspects the bit in position 15. If the bit is 0, <br>the instruction is a register-reference type. Otherwise, the instruction is an input-output type having bit 1 at position 15.</li>
+    </ul>
+    <br>
+    <div class="line" id="line"></div><br><br>
+    <a href="InstructionCycle2.html" >
+        <button type="button"> Next Topic</button>
+    </a>
+    </body>
+</html>

@@ -1,9 +1,238 @@
-<!doctype html>
+
+<!Doctype html>
 <html>
 <head>
   <title> Html page </title>
 </head>
-<body>
-MY NAME IS.....HARSH .....!!!!!
-</body>
+<style>
+
+ body{
+  background-color:burlywood;
+ } 
+    #welcome-section{
+      font-size: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      text-decoration: solid;
+      width:100%;
+      height:2rem;
+      background-color: dimgrey;
+      padding-top: 25rem;
+      padding-bottom: 27.3rem;
+      background-image: linear-gradient(to top, #000, 	#191970);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+    }
+
+    p{
+      font-size:35px;
+    }
+
+    #Introduction{
+      padding-top: 24rem;
+padding-bottom:24rem;
+      text-decoration: solid;
+      text-align: center;
+    }
+
+    #content{
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      text-decoration: solid;
+      width:100%;
+      height:2.5rem;
+      padding-top: 7rem;
+      padding-bottom: 0.1rem;
+    }
+
+    #items{
+      font-size: 20px;
+      text-align: center;
+      padding-top: 0.4rem;
+      padding-bottom: 0.4rem;
+      font-style: unset;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #line{
+      width:100%;
+      padding:0.03rem;
+      height: 0.4rem;
+      background-color: black;
+    }
+    
+    #first{
+      text-align: center;
+      font-size: 40px;
+    }
+
+    #first1{
+      text-align: center;
+      font-size:28px;
+    }
+
+#implid{
+  font-size: 25px;
+}
+button {
+        font-size: 40px;
+        background-color: black;
+        color: burlywood;
+        border-radius: 50%;
+        padding:auto; 
+        text-align: center;
+}
+
+
+</style>
+ <body>
+  <div class="line" id="line"></div>
+    <h1 id="welcome-section">****COMPUTER ORGANISATION AND ARCHITECTURE****</h1>
+    <br>
+    <div class="line" id="line"></div>
+     <div class="Introduction" id="Introduction">
+       <h2><ul> ** WHAT IS COMPUTER ORGANISATION AND ARCHITURE? </ul></h2><br><br>
+       <p><strong>"COMPUTER ORGANISATION</strong> is a branch of <strong>Computer science</strong> <br> that deals with the orgainsation of computer i.e how our computer works<br> and what are the basic components that our computer system have."</p>
+       <br><br><p> "It's the study of <br><strong> working , structuring and implementation</strong><br> of computer system."</p>
+     </div>
+     <br><br><br><br>
+     <div class="Index" id="Index">
+       
+      <div class="line" id="line"></div>
+       <h2 class="content" id="content"><strong> ** TABLE OF CONTENT **</strong></h2>
+       <ul id="items" class="items">
+        <li> Addressing Modes. </li><br><br>
+        <li> Arithmatic And Logical Unit (ALU Datapath). </li><br><br>
+        <li> Control Unit(CU). </li><br><br>
+        <li> Pipelining. </li><br><br>
+        <li> Cache Memory (Mapping & Cache replacement Algo's). </li><br><br>
+        <li> Secondary Memory.</li><br><br>
+       </ul>
+      </div>
+      <br><br><br><br>
+      <div class="line" id="line"></div>
+      <div class="addressing" id="addressing">
+              <h2 id="first" class="first">( UNIT 1 )-- * ADRESSING MODES *</h2>
+              <p class="first1" id="first1"> " The Different ways of specifying <br>the location of an operand in an instruction<br> are called as <strong>ADDRESSING MODES.</strong>"</p>
+              <br><br> 
+              <h3> * TYPES OF ADDRESSING MODES</h3>
+              <p>There are mainly 10 types of Addressing Modes :-</p>
+              <ul>
+                <li> Implied Addressing Mode.  </li>
+                <li> Immediate Addressing Mode.  </li>
+                <li> Direct Addressing Mode.  </li>
+                <li> Indirect Addressing Mode.  </li>
+                <li> Register-direct Addressing Mode.  </li>
+                <li> Register-Indirect Addressing Mode.  </li>
+                <li> Stack Addressing Mode.  </li>
+                <li> Relative Addressing Mode.  </li>
+                <li> Index Addressing Mode.  </li>
+                <li> Base Register Addressing Mode.</li>
+              </ul>
+      </div>
+      <br><br><br>
+      <p> Now , Let's learn them one by one..... </p>
+      <div class="line" id="line"></div>
+      <div class="implied" id="implied">
+<h3> 1): Implied Addressing Mode  </h3>
+<p class="implid" id="implid">
+  In this addressing mode , <br> the defination of the instruction itself specify the operands implicitly.<br><br>
+  e.g. <strong>Complement Accumulator</strong> is an Implied Mode.
+</p>
+<br><br><br>
+<div class="line" id="line"></div>
+<h3> 2): Immediate Addressing Mode  </h3>
+<p class="implid" id="implid">
+    i) : In this addressing mode , <br> The Operand is specified in the instruction explicitly.<br><br>
+    ii) : Instead of address field , an operand field is present that contains the operand.<br><br>
+  e.g. <strong>ADD 10</strong> is an IMMEDIATE Mode.
+</p>
+<br><br><br>
+<div class="line" id="line"></div>
+<h3> 3): Direct Addressing Mode  </h3>
+<p class="implid" id="implid">
+  In this addressing mode , <br> i) : The Adress field of the instruction contains the <strong>EFFECTIVE ADDRESS</strong> of operand. <br><br>
+  ii) : Only <strong>ONE</strong> reference to the memory is required to fetch the operand.<br><br>
+  e.g. <strong>ADD X</strong> is an DIRECT Mode.
+</p>
+<br><br><br>
+<div class="line" id="line"></div>
+<h3> 4): Indirect Addressing Mode  </h3>
+<p class="implid" id="implid">
+  In this addressing mode , <br>i) : The Address field of the instruction contains the address of Memory location that contains the <strong>EFFECTIVE ADDRESS</strong> of operand.<br><br>
+  ii) : <strong>TWO</strong> references of the memory are required to fetch the operand.<br><br>
+  e.g. <strong>LOAD R1</strong> is an INDIRECT Mode.
+</p>
+<br><br><br>
+
+<br><br><br>
+<div class="line" id="line"></div>
+<h3> 5): Register-direct Addressing Mode  </h3>
+<p class="implid" id="implid">
+  In this addressing mode , <br>i) : The Adress field of the instruction refers to CPU register that contains the operand.<br><br>
+  ii) :<strong>NO </strong>refernce to the Memory is required.<br><br>
+  e.g. <strong>ADD R</strong> is an REGISTER-DIRECT Mode.
+</p>
+<br><br><br>
+
+<br><br><br>
+<div class="line" id="line"></div>
+<h3> 6): Register-Indirect Addressing Mode  </h3>
+<p class="implid" id="implid">
+  In this addressing mode , <br>i) : THE ADDRESS field of the instruction refers to the CPU register that contains the <strong>EFFECTIVE ADDRESS</strong> of operand.<br><br>
+  ii) : <strong>ONE</strong> references of the memory are required to fetch the operand.<br><br>
+  e.g. <strong>LOAD R1</strong> is an REGISTER-INDIRECT Mode.
+</p>
+<br><br><br>
+
+<br><br><br>
+<div class="line" id="line"></div>
+<h3> 7): Stack Addressing Mode  </h3>
+<p class="implid" id="implid">
+  In this addressing mode , <br> "The operand is contained at the <strong>TOP</strong> of the Stack."<br><br>
+  e.g. <strong>ADD</strong> is an STACK Mode.
+</p>
+<br><br><br>
+
+<br><br><br>
+<div class="line" id="line"></div>
+<h3> 8): Relative Addressing Mode  </h3>
+<p class="implid" id="implid">
+  In this addressing mode , <br>i) : The <strong>EFFECTIVE ADDRESS</strong> of the operand is obtained by adding the content of <strong>PROGRAM COUNTER</strong> to the address part of the instruction.<br><br>
+  ii) : The Adress part of instruction can be either (+ve) or (-ve) represented in 2's Complement.<br><br>
+  e.g. <strong>ADD R1,4000</strong> is an RELATIVE Mode.
+</p>
+<br><br><br>
+
+<br><br><br>
+<div class="line" id="line"></div>
+<h3> 9): Index Addressing Mode  </h3>
+<p class="implid" id="implid">
+  In this addressing mode , <br>i) : The <strong>EFFECTIVE ADDRESS</strong> of the operand is obtained by adding the content of <strong>INDEX REGISTER</strong> to the address part of the instruction.<br><br>
+  ii) : tHE dISTEANCE BETWEEN the base address and the address of operand is the <strong>INDEX VALUE</strong> stored in index register.<br><br>
+  e.g. <strong>Arrays</strong> is an INDex Mode.
+</p>
+<br><br><br>
+
+<br><br><br>
+<div class="line" id="line"></div>
+
+<h3> 10): Base register Addressing Mode  </h3>
+<p class="implid" id="implid">
+  In this addressing mode , <br>i) :  The <strong>EFFECTIVE ADDRESS</strong> of the operand is obtained by adding the content of <strong>BASE REGISTER</strong> to the address part of the instruction.<br><br>
+  ii) : used for <strong>PROGRAM RELOCATION</strong><br><br>
+</p>
+<br><br><br>
+      </div>
+      <div class="line" id="line"></div>
+      <a href="Registers.html">
+      <button type="button"> Next Topic </button>
+      </a>
+ </body>
 </html>
