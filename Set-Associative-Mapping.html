@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Set-Associated Mapping
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+    <style>
+        body{
+            background-color: black;
+            color:white;
+        }
+        .button1 {
+        font-size: 30px;
+        background-color: MidnightBlue;
+        color: black;
+        border-radius: 100%;
+        padding:auto; 
+        text-align: center;
+        transition-duration: 0.2s;
+}
+.button1:hover {
+  background-color: burlywood; 
+  color: black;
+}
+        #head{
+            text-align: center;
+            font-size:65px;
+            color:red;
+             }
+             #line{
+            width:100%;
+            height:0.5px;
+            background-color: black;
+            padding-top: 5px;
+            padding-bottom:5px;
+                  }
+            #about{font-size:32px;
+                text-align: center;
+                padding-top:140px;
+                font-style: italic;
+                padding-bottom:100px;
+            }
+            #box{
+                text-align: center;
+                font-size:50px;
+                font-style: italic;
+            } 
+            #about1{font-size:30px;
+                font-style: italic;
+                text-align: center;
+            }
+            #ex{
+                font-size: 30px;
+            } 
+           
+            #add{
+                font-size:30px;
+            } 
+            
+            #caption{
+                padding-left:60px;
+                font-weight: 800;
+                color:orange;
+                font-size:25px;}
+                #f{
+                font-size: 30px;
+                font-weight:600;
+              }
+              #merits{
+                text-align: center;
+                font-size: 50px;
+                font-weight: bold;
+                color:red;
+              }
+
+              
+              img{
+              
+              width:30%;
+              }
+                 
+             
+               
+    </style>
+    <body>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+ <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="file:///home/lucifer/COA/Index.html">COMPUTER ORGANISATION AND ARCHITECTURE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="file:///home/lucifer/COA/Index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Index.html">Adressing modes</a></li>
+             <li><a class="dropdown-item" href="file:///home/lucifer/COA/Registers.html">Registers</a></li>
+              <li><a class="dropdown-item" href="file:///home/lucifer/COA/InstructionCycle.html">Instruction Cycle(Part:1)</a></li>
+               <li><a class="dropdown-item" href="file:///home/lucifer/COA/InstructionCycle2.html">Instruction Cycle(Part:2)</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Design.html">Design Of Computer System.</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Rom.html">Rom And It's Types</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Ram.html">Ram And It's Types</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/RiscVsCisc.html">Risc vs Cisc</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/HardWiredvsMicroProgrammed.html">HardWiredvsMicroProgrammed</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Vectored-NonVectored.html">Vectored-NonVectored</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Maskable-NonMaskable.html">Maskable-NonMaskable</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Mapping1.html">Cache Mapping</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Direct-Mapping.html">Direct-Mapping</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Associated-mapping.html">Associated-mapping</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Set-Associative-Mapping.html">Set-Associative-Mapping</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/pipelining.html">Pipelining</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  <br><br>
+        <h1 id="head" class="head">
+        <strong><u>SET&nbsp;-&nbsp;ASSOCIATIVE&nbsp;MAPPING</u></strong>
+        </h1>
+     <strong>   <P id="about" class="about">
+         &nbsp;Set &nbsp;Associative &nbsp;Mapping &nbsp;Is &nbsp;A &nbsp;Cache &nbsp;Mapping <br>
+         Technique &nbsp;That &nbsp;Allows &nbsp;To &nbsp;Map &nbsp;A &nbsp;Block &nbsp;Of&nbsp;
+         Main &nbsp;Memory<br>To &nbsp;Only &nbsp;One &nbsp;Particular &nbsp;Set &nbsp;Of &nbsp;Cache.&nbsp;<br><br><br>
+
+
+        **** In The Case Of k-Way Set Associative Mapping,****<br><br><br>
+
+>&nbsp;The &nbsp;k-way &nbsp;Set &nbsp;Associative &nbsp;Mapping &nbsp;Refers &nbsp;To &nbsp;a &nbsp;combination&nbsp; 
+of<br>the &nbsp;direct &nbsp;mapping &nbsp;as &nbsp;well &nbsp;as &nbsp;the &nbsp;fully &nbsp;associative &nbsp;mapping.<br><br>
+>&nbsp;It &nbsp;makes &nbsp;use &nbsp;of &nbsp;the &nbsp;fully &nbsp;associative<br>mapping &nbsp;that &nbsp;exists &nbsp;within &nbsp;each &nbsp;set.<br><br><br>
+>&nbsp;Therefore, &nbsp;the &nbsp;k-way &nbsp;set &nbsp;associative &nbsp;mapping &nbsp;needs <br>a &nbsp;certain &nbsp;type &nbsp;of &nbsp;replacement &nbsp;algorithm.****<br><br><br>
+
+<strong>In &nbsp;k-way &nbsp;Set &nbsp;Associative &nbsp;Mapping,</strong><br><br><br>
+
+        &nbsp;Cache&nbsp;Lines&nbsp;Are&nbsp;Grouped&nbsp;Into&nbsp;Sets&nbsp;Where<br>
+         Each&nbsp;Set&nbsp;Contains&nbsp;K&nbsp;Number&nbsp;Of&nbsp;Lines.<br><br><br>
+
+        &nbsp;A &nbsp;Particular &nbsp;Block &nbsp;Of &nbsp;Main &nbsp;Memory &nbsp;Can &nbsp;Map<br> 
+         To &nbsp;Only &nbsp;One &nbsp;Particular &nbsp;Set &nbsp;Of &nbsp;The &nbsp;Cache.&nbsp;<br><br><br>
+
+        &nbsp;However&nbsp;, &nbsp;Within &nbsp;That &nbsp;Set&nbsp;, &nbsp;The &nbsp;Memory &nbsp;Block &nbsp;Can<br> 
+         Map &nbsp;To &nbsp;Any &nbsp;Freely &nbsp;Available &nbsp;Cache &nbsp;Line.&nbsp;<br><br><br>
+         **&nbsp;The &nbsp;Set &nbsp;Of &nbsp;The &nbsp;Cache &nbsp;To &nbsp;Which &nbsp;A &nbsp;Particular &nbsp;Block<br> 
+         Of &nbsp;The &nbsp;Main &nbsp;Memory &nbsp;Can &nbsp;Map &nbsp;Is &nbsp;Given &nbsp;By&nbsp;-</strong>
+         
+  <P id="about1" class="about1">
+ <strong>Cache &nbsp;Set &nbsp;Number (i)=</strong><br>Block &nbsp;Address &nbsp;Of &nbsp;The &nbsp;Main &nbsp;Memory(k)<br>
+ Modulo(%)<br>Total &nbsp;Number &nbsp;Of &nbsp;Sets &nbsp;Present &nbsp;In &nbsp;The &nbsp;Cache(n)
+</P><br>
+<h2  id="box" class="box">
+    i&nbsp;=&nbsp;K mod n 
+</h2>
+
+<p id="ex" class="ex">
+<strong>For &nbsp;Example,</strong><br><br>
+Let &nbsp;Us &nbsp;Consider &nbsp;The &nbsp;Example &nbsp;Given &nbsp;As &nbsp;Follows<br>
+Of &nbsp;A &nbsp;Two-Way &nbsp;Set-Associative &nbsp;Mapping:
+</p><br><br><br><br>
+<img src="https://www.gatevidyalay.com/wp-content/uploads/2018/06/2-Way-Set-Associative-Mapping-Diagram-1.png" alt="image"/><br>
+<p class="caption" id="caption">fig :- SET-ASSOCIATIVE &nbsp;MAPPING</p>
+<br><br><br>
+
+<p id="ex" class="ex">
+<strong> In&nbsp;this &nbsp;case,</strong><br><br>
+
+>K &nbsp;= &nbsp;2 &nbsp;Would &nbsp;Suggest &nbsp;That &nbsp;Every&nbsp;
+Set &nbsp;Consists<br>
+Of &nbsp;Two &nbsp;cache &nbsp;lines.<br><br>
+
+>Since &nbsp;The &nbsp;Cache &nbsp;Consists &nbsp;Of &nbsp;6 &nbsp;Lines&nbsp;,&nbsp;The &nbsp;Total &nbsp;Number &nbsp;Of &nbsp;Sets
+<br> That &nbsp;are &nbsp;present &nbsp;In &nbsp;the &nbsp;cache &nbsp;= &nbsp;6 &nbsp;/ &nbsp;2 &nbsp;
+= &nbsp;3 &nbsp;Sets.<br><br>
+
+>The &nbsp;Block &nbsp;‘j’ &nbsp;Of &nbsp;The &nbsp;Main &nbsp;Memory &nbsp;Is &nbsp;Capable &nbsp;Of<br>
+&nbsp;Mapping &nbsp;To &nbsp;The &nbsp;Set &nbsp;Number &nbsp;Only &nbsp;(j mod 3) &nbsp;Of &nbsp;The &nbsp;Cache.<br><br>
+
+>Here, &nbsp;Within &nbsp;This &nbsp;Very &nbsp;Set&nbsp;, &nbsp;The &nbsp;Block &nbsp;‘j’ &nbsp;Is&nbsp;
+Capable &nbsp;Of <br>Mapping &nbsp;to &nbsp;Any &nbsp;Cache &nbsp;Line &nbsp;That &nbsp;Is &nbsp;Freely
+ &nbsp;Available &nbsp;At &nbsp;That &nbsp;Moment.<br><br>
+
+>In &nbsp;Case &nbsp;All &nbsp;The &nbsp;Available &nbsp;Cache &nbsp;Lines &nbsp;Happen &nbsp;To &nbsp;Be<br>
+ &nbsp;Occupied, &nbsp;Then &nbsp;One &nbsp;Of &nbsp;The &nbsp;Blocks &nbsp;That &nbsp;Already &nbsp;
+ Exist &nbsp;Needs &nbsp;To &nbsp;be &nbsp;Replaced.<br><br><br></p><br><br>
+
+
+<p id="add" class="add">
+    <img src="https://www.gatevidyalay.com/wp-content/uploads/2018/06/K-way-Set-Associative-Mapping-Division-of-Physical-Address.png" alt="image"/><br>
+    <p class="caption" id="caption">fig :-PHYSICAL &nbsp;ADDRESS</p>
+    <br><br><br><br>
+</p>
+<h3 id="merits" class="merits">
+    <strong><u>ADVANTAGES&nbsp;&nbsp;&&nbsp;&nbsp;DISADVANTAGES</u></strong><br.<br><br><br>
+</h3>
+<p id="ex" class="ex">
+<strong>
+ADVANTAGE<br><br><br>
+</strong>
+>Set-Associative Cache Memory Has Highest Hit-Ratio Compared Two Previous Two Cache <br>Memory 
+Discussed Above. Thus Its Performance Is Considerably Better.<br><br><br>
+<strong>
+DISADVANTAGE<br><br><br>
+</strong>
+>Set-Associative Cache Memory Is Very Expensive. As The Set Size Increases The Cost Increases.<br>
+
+</p><br><br>
+<a href="Registers.html" class="ab" id="ab">
+      <button type="button" class="button1">Next Topic</button>
+      </a>
+      <br><br>
+<div class="line" id="line"></div><br>
+    </body>
+</html>

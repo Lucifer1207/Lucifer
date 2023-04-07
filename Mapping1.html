@@ -1,51 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
         <title>
-            Registers.
+            poojapunyani10
         </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
     <style>
-     body{
-        background-color:black;
-  color:white;
-     }
-     #ab{
-    padding-left:45%;
-    
-}
-     #x{
+        body{
+              background:black;
+              color:white;
+            }
+            .button1 {
         font-size: 30px;
-     }
-     #heading{
-        text-align: center;
-        font-size: 75px;
-        color:red;
-     }
-     #line{
-        background-color:black;
-        height: 5px;
-        width: 100%;
-     }
-     #content{
-        font-size: 30px;
-     }
-
-     li{
-        padding-bottom: 5px;
-        font-size: 25px;
-     }
-     img{
-        display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  padding-bottom: 50px;
-     }
-    .button1 {
-        font-size: 30px;
-        background-color:MidnightBlue ;
+        background-color: MidnightBlue;
         color: black;
         border-radius: 100%;
         padding:auto; 
@@ -57,10 +25,68 @@
   color: black;
 }
 
+        #head{
+            text-align: center;
+            font-size:65px;
+            color:red;
+        }
+        #line{
+            width:100%;
+            height:0.5px;
+            background-color: black;
+            padding-top: 5px;
+            padding-bottom:5px;
+       }
+        #intro{text-align:center;
+                font-size:30px;
+                padding-top:40px;
+                padding-bottom:40px;;
+                font-style: italic;
+              }
+        #type{font-size:55px;
+              text-align:center;
+              padding-bottom:0%;
+              padding-top:50px;
+              color:red;
+            }
+        #class{text-align:center;
+              font-size:30px;
+              padding-top:0%;
+              padding-bottom:0%;}
+        #about{font-size:30px;
+
+        } 
+        #direct{
+            font-size:40px;
+            padding-top:80px;
+        } 
+        #box{
+            background-color:black;
+            color: aliceblue;
+            padding-left: 10px;
+            width:200px;
+            padding-top: 25px;
+            text-align:center;
+            height:50px;
+            font-size:30px ;
+            font-style:italic ;
+        } 
+        img{
+                padding-left:28%;
+                height:350px;
+              }
+              #caption{
+                padding-left:699px;
+                font-weight: 800;
+                color:orange;
+                font-size:30px;}
+      
+
     </style>
     <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+ <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="file:///home/lucifer/COA/Index.html">COMPUTER ORGANISATION AND ARCHITECTURE</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,39 +134,43 @@
     </div>
   </div>
 </nav>
-        <p id="x" class="x">NOW....Let's Learn About Registers.</p>
+  <br><br>
+        <h1 id="head" class="head">
+        <strong> <u>CACHE &nbsp;MAPPING</u></strong>
+        </h1>
         <div class="line" id="line"></div>
-        <h1 id="heading" class="heading">Computer Registers</h1>
-        <div class="line" id="line"></div>
-        <p id="content" class="content">Registers are a type of computer memory used to quickly accept, store, and transfer data and instructions that are being used immediately by the CPU. The registers used by the CPU are often termed as Processor registers.<br><br><br>
+        <p id="intro" class="intro">
+       <strong> ****It &nbsp;Is &nbsp;A &nbsp;Process &nbsp;Of &nbsp;Joining &nbsp;Or &nbsp;Map &nbsp;A &nbsp;Particular<br>
+        Block &nbsp;Of &nbsp;Main &nbsp;Memory &nbsp;To &nbsp;A &nbsp;Particular &nbsp;Block &nbsp;Of &nbsp;Cache****</strong><br><br><br><br>
+        
+        
+       <strong>**** As &nbsp;we &nbsp;know &nbsp;that &nbsp;the &nbsp;cache &nbsp;memory &nbsp;bridges &nbsp;the &nbsp;mismatch 
+       <br>&nbsp;&nbsp;&nbsp;&nbsp; of &nbsp;speed &nbsp;between
+       &nbsp;the &nbsp;main &nbsp;memory &nbsp;and &nbsp;the &nbsp;processor.
+        <br>>Whenever &nbsp;a &nbsp;cache &nbsp;hit &nbsp;occurs,<br>
 
-            A processor register may hold an instruction, a storage address, or any data (such as bit sequence or individual characters).<br><br>
-            
-            The computer needs processor registers for manipulating data and a register for holding a memory address. The register holding the memory location is used to calculate the address of the next instruction after the execution of the current instruction is completed.<br><br></p>
-
-            <br>
-            <img src="https://www.researchgate.net/profile/Kasim-Al-Aubidy/publication/26621629/figure/tbl1/AS:667811772907533@1536230142690/Basic-Computer-Registers.png"><br><br>
-            <ul>
-                <li>The Memory unit has a capacity of 4096 words, and each word contains 16 bits.</li>
-                <li>The Data Register (DR) contains 16 bits which hold the operand read from the memory location.</li>
-                <li>The Memory Address Register (MAR) contains 12 bits which hold the address for the memory location.
-                </li>
-                <li>The Program Counter (PC) also contains 12 bits which hold the address of the next instruction to be read from memory after the current instruction is executed. </li>
-                <li>The Accumulator (AC) register is a general purpose processing register.</li>
-                <li>The instruction read from memory is placed in the Instruction register (IR).</li>
-                <li>The Temporary Register (TR) is used for holding the temporary data during the processing.
-                </li>
-                <li>The Input Registers (IR) holds the input characters given by the user.
-                </li>
-                <li>The Output Registers (OR) holds the output after processing the input data.</li>
-            </ul>
-            <img src="https://static.javatpoint.com/tutorial/coa/images/computer-registers.png">
-            <div class="line" id="line"></div><br>
-      <a href="InstructionCycle.html" class="ab" id="ab">
+        *&nbsp;The word that is required is present in the memory of the cache.<br><br>
+       *&nbsp;Then the required word would be delivered from the cache memory to the CPU.<br><br>
+        >whenever a cache miss occurs,<br>
+        
+        *&nbsp;The word that is required isn’t present in the memory of the cache.<br><br>
+       *&nbsp;The page consists of the required word that we need <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;to map from the main memory.****</strong>
+        </p>
+   <br><br>     <img src="https://www.gatevidyalay.com/wp-content/uploads/2018/06/Cache-Mapping-Diagram-2.png" alt="image"/><br><br>
+   <p class="caption" id="caption"><u>fig :-&nbsp;CACHE&nbsp; MAPPING</u></p>
+   <br>
+        <h2 id="type" class="type">
+            <strong><u>TYPES&nbsp; OF &nbsp;MAPPING</u></strong></h2>
+            <p id="class" class="class">
+            <strong>****There &nbsp;Are &nbsp;Mainly &nbsp;Three &nbsp;Types &nbsp;Of &nbsp;MAPPING****<br>
+            1.DIRECT &nbsp;MAPPING.<br>
+            2.ASSOCIATVE &nbsp;MAPPING.<br>
+            3.SET-ASSOCIATIVE &nbsp;MAPPING.</strong></p>
+                <a href="Direct-Mapping.html" class="ab" id="ab">
       <button type="button" class="button1">Next Topic</button>
       </a>
       <br><br>
-      <div class="line" id="line"></div><br>
-    
-        </body>
+        
+    </body>
 </html>

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            poojapunyani14
+        </title>
+           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    </head>
+    <style>
+body{
+    background-color:black;
+    color: white;
+    }
+    #line{
+            width:100%;
+            height:0.5px;
+            background-color: black;
+            padding-top: 5px;
+            padding-bottom:5px;
+       }
+    #head {
+        text-align: center;
+        font-size:68px;
+        color:red;
+          } 
+    #about{
+        text-align: center;
+        padding-top: 60px;
+        font-size: 20px;
+        font-style: italic;
+    }
+    #type{font-size:40px;
+                  text-align:center;
+                  padding-bottom:0%;
+                  color:red;
+         }
+    #type1{font-size:20px;
+                  text-align:center;
+                  padding-bottom:0%;
+         }
+    #mint{text-align:center;
+            font-size:20px;
+            padding-top:0%;
+            padding-bottom:0%;
+            font-style: italic;
+        }
+    #xyz{font-size:40px;
+    color:red;
+    } 
+    #about1{
+        font-size: 20px;
+        font-style: italic;
+    }
+    img{
+                padding-left:35%;
+                height:700px;} 
+    #caption{
+                padding-left:450px;
+                font-weight: 800;
+                font-size:30px;}
+    #about2{
+        text-align: center;
+        font-style: italic;
+        font-size: 30px;
+
+    }                                    
+    </style>
+    <body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="file:///home/lucifer/COA/Index.html">COMPUTER ORGANISATION AND ARCHITECTURE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="file:///home/lucifer/COA/Index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Topics
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Index.html">Adressing modes</a></li>
+             <li><a class="dropdown-item" href="file:///home/lucifer/COA/Registers.html">Registers</a></li>
+              <li><a class="dropdown-item" href="file:///home/lucifer/COA/InstructionCycle.html">Instruction Cycle(Part:1)</a></li>
+               <li><a class="dropdown-item" href="file:///home/lucifer/COA/InstructionCycle2.html">Instruction Cycle(Part:2)</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Design.html">Design Of Computer System.</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Rom.html">Rom And It's Types</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Ram.html">Ram And It's Types</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/RiscVsCisc.html">Risc vs Cisc</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/HardWiredvsMicroProgrammed.html">HardWiredvsMicroProgrammed</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Vectored-NonVectored.html">Vectored-NonVectored</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Maskable-NonMaskable.html">Maskable-NonMaskable</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Mapping1.html">Cache Mapping</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Direct-Mapping.html">Direct-Mapping</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Associated-mapping.html">Associated-mapping</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/Set-Associative-Mapping.html">Set-Associative-Mapping</a></li>
+            <li><a class="dropdown-item" href="file:///home/lucifer/COA/pipelining.html">Pipelining</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <div class="line" id="line"></div>
+<h1 id="head" class="head">
+       <strong>
+        <u>PIPELINING</u>
+       </strong>
+</h1>
+<div class="line" id="line"></div>
+<p id="about" class="about">
+    <strong> &nbsp;Pipelining &nbsp;is &nbsp;a &nbsp;technique &nbsp;for &nbsp;breaking &nbsp;down &nbsp;a &nbsp;sequential &nbsp;process &nbsp;into<br> 
+    &nbsp;&nbsp;&nbsp; various &nbsp;sub-operations &nbsp;and &nbsp;executing &nbsp;each &nbsp;sub-operation &nbsp;in &nbsp;its &nbsp;own <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;dedicated &nbsp;segment &nbsp;that &nbsp;runs &nbsp;in &nbsp;parallel &nbsp;with &nbsp;all &nbsp;other &nbsp;segments. &nbsp;</strong><br><br><br>
+
+    <strong> &nbsp;It &nbsp;is &nbsp;a &nbsp;process &nbsp;of &nbsp;arrangement &nbsp;of &nbsp;hardware &nbsp;elements &nbsp;of &nbsp;the &nbsp;CPU &nbsp;such<br>
+that &nbsp;its &nbsp;overall &nbsp;performance &nbsp;is &nbsp;increased. It &nbsp;allows &nbsp;storing &nbsp;and<br>
+executing &nbsp;instructions &nbsp;in &nbsp;an &nbsp;orderly &nbsp;process. &nbsp;Hence &nbsp;also<br> 
+known &nbsp;as &nbsp;pipeline &nbsp;processing. &nbsp;</strong><br><br><br>
+
+
+<strong> &nbsp;Pipeline &nbsp;is &nbsp;divided &nbsp;into &nbsp;stages &nbsp;and &nbsp;these &nbsp;stages &nbsp;are &nbsp;connected &nbsp;with &nbsp;one<br>
+another &nbsp;to &nbsp;form &nbsp;a &nbsp;pipe &nbsp;like &nbsp;structure. &nbsp;Instructions &nbsp;enter &nbsp;from &nbsp;one<br>
+end &nbsp;and &nbsp;exit &nbsp;from &nbsp;another &nbsp;end. &nbsp;Importance &nbsp;of &nbsp;Pipelining &nbsp;is<br>
+that &nbsp;it &nbsp;increases &nbsp;the &nbsp;overall &nbsp;instruction &nbsp;throughput. &nbsp;</strong>
+</p><br><br>
+<p id="about" class="about">
+<strong>Let &nbsp;us &nbsp;see &nbsp;a &nbsp;real-life &nbsp;example &nbsp;that &nbsp;works &nbsp;on 
+the &nbsp;concept &nbsp;of &nbsp;pipelined &nbsp;operation. &nbsp;Consider<br> 
+a &nbsp;water &nbsp;bottle &nbsp;packaging &nbsp;plant. &nbsp;Let &nbsp;there &nbsp;be 
+3 &nbsp;stages &nbsp;that &nbsp;a &nbsp;bottle &nbsp;should &nbsp;pass &nbsp;through,<br>
+ Inserting &nbsp;the &nbsp;bottle(I), &nbsp;Filling &nbsp;water &nbsp;in
+  the &nbsp;bottle(F), &nbsp;and &nbsp;Sealing &nbsp;the &nbsp;bottle(S).<br> 
+  Let &nbsp;us &nbsp;consider &nbsp;these &nbsp;stages &nbsp;as &nbsp;stage &nbsp;1, 
+  stage &nbsp;2, &nbsp;and &nbsp;stage &nbsp;3 &nbsp;respectively. &nbsp;Let <br>
+  each &nbsp;stage &nbsp;take &nbsp;1 &nbsp;minute &nbsp;to &nbsp;complete &nbsp;its 
+  operation. &nbsp;Now, &nbsp;in &nbsp;a non-pipelined &nbsp;operation,<br> 
+  a &nbsp;bottle &nbsp;is &nbsp;first &nbsp;inserted &nbsp;in &nbsp;the &nbsp;plant, &nbsp;after 
+  1 &nbsp;minute &nbsp;it &nbsp;is &nbsp;moved &nbsp;to &nbsp;stage &nbsp;2 &nbsp;where &nbsp;water &nbsp;is <br>
+  filled. &nbsp;Now, in stage 1 nothing is happening. 
+  Similarly, &nbsp;when &nbsp;the &nbsp;bottle &nbsp;moves &nbsp;to &nbsp;stage &nbsp;3, &nbsp;both <br>
+  stage &nbsp;1 &nbsp;and &nbsp;stage &nbsp;2 &nbsp;are &nbsp;idle. &nbsp;But &nbsp;in &nbsp;pipelined 
+  operation, &nbsp;when &nbsp;the &nbsp;bottle &nbsp;is &nbsp;in &nbsp;stage &nbsp;2, &nbsp;another <br>
+  bottle &nbsp;can &nbsp;be &nbsp;loaded &nbsp;at &nbsp;stage &nbsp;1. &nbsp;Similarly, &nbsp;when 
+  the &nbsp;bottle &nbsp;is &nbsp;in &nbsp;stage &nbsp;3, &nbsp;there &nbsp;can &nbsp;be &nbsp;one &nbsp;bottle<br>
+   each &nbsp;in &nbsp;stage &nbsp;1 and stage 2. &nbsp;So, &nbsp;after &nbsp;each &nbsp;minute,
+    we &nbsp;get &nbsp;a &nbsp;new &nbsp;bottle &nbsp;at &nbsp;the &nbsp;end &nbsp;of &nbsp;stage &nbsp;3. &nbsp;Hence,<br>
+     the &nbsp;average &nbsp;time &nbsp;taken &nbsp;to &nbsp;manufacture &nbsp;1 &nbsp;bottle &nbsp;is: <br><br><br></strong>
+
+    <strong> WITHOUT &nbsp;PIPELINING ; = 9/3 &nbsp;minutes = 3 &nbsp;m</strong><br><br>
+
+     I F S | | | | | |<br><br>
+     | | | I F S | | |<br><br>
+     | | | | | | I F S <br><br>
+     (9 minutes)<br><br><br>
+
+     <strong>WITH &nbsp;PIPELINING ; = 5/3 &nbsp;minutes = 1.67 &nbsp;m</strong><br><br>
+
+     I F S | |<br><br>
+     | I F S |<br><br>
+     | | I F S<br><br> 
+     (5 minutes)<br><br>
+
+     <strong>
+        Thus, &nbsp;pipelined &nbsp;operation &nbsp;increases &nbsp;the &nbsp;efficiency &nbsp;of &nbsp;a &nbsp;system.<br><br><br><br>
+     </strong></p>
+
+<h2 id="type" class="type">
+    <strong><u>TYPES OF PIPELINING</u></strong></h2><br><br>
+    <p id="mint" class="mint">
+    <strong>****There Are Mainly TWO Types Of PIPELINING****<br><br>
+    1. &nbsp;ARITHMETIC &nbsp; PIPELINING.<br><br>
+    2. &nbsp;INSTRUCTION &nbsp;PIPELINING.<br></strong></p><br><br><br><br><br>
+    
+    <h3 id="xyz" class="xyz">
+        1.) &nbsp;Arithematic &nbsp;Pipelining ..
+    </h3>
+    
+    <p id="about1" class="about1">
+        ➤ &nbsp;&nbsp;Arithmetic &nbsp;Pipelines &nbsp;are &nbsp;commonly &nbsp;used &nbsp;in &nbsp;various 
+        high-performance &nbsp;computers.<br><br>
+        ➤ &nbsp;&nbsp;They &nbsp;are &nbsp;used &nbsp;in &nbsp;order &nbsp;to &nbsp;implement &nbsp;floating-point &nbsp;operations , &nbsp;fixed-point<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;multiplication , &nbsp;and &nbsp;other &nbsp;similar &nbsp;kinds &nbsp;of &nbsp;calculations 
+        that &nbsp;come &nbsp;<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+        &nbsp;&nbsp;up &nbsp;in &nbsp;scientific &nbsp;situations.<br><br>
+        ➤ &nbsp;&nbsp;The &nbsp;process &nbsp;or &nbsp;flowchart &nbsp;of &nbsp;arithmetic &nbsp;pipeline &nbsp;for
+        &nbsp;floating &nbsp;point &nbsp;addition <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;is &nbsp;shown &nbsp;in &nbsp;the &nbsp;diagram.<br><br><br><br>
+        
+  <img src="C:\Users\ASUS\Downloads\pipeline.jpg" alt="image"/><br><br>
+        <p class="caption" id="caption">fig :-&nbsp;ARITHEMATIC&nbsp; PIPELINING</p><br><br>
+    </p>
+
+    <h3 id="xyz" class="xyz">
+    Floating &nbsp;point &nbsp;addition &nbsp;using &nbsp;arithmetic &nbsp;pipeline :
+    </h3> 
+    <p id="about1" class="about">
+<strong>⬗ &nbsp;The &nbsp;following &nbsp;sub &nbsp;operations &nbsp;are &nbsp;performed &nbsp;in &nbsp;this &nbsp;case:</strong><br><br>
+1. &nbsp;Compare &nbsp;the &nbsp;exponents.<br>
+2. &nbsp;Align &nbsp;the &nbsp;mantissas.<br>
+3. &nbsp;Add &nbsp;or &nbsp;subtract &nbsp;the &nbsp;mantissas.<br>
+4. &nbsp;Normalise &nbsp;the &nbsp;result.<br><br>
+    </p>
+
+    <h4 id="about2" class="about2">
+First &nbsp;of &nbsp;all &nbsp;the &nbsp;two &nbsp;exponents &nbsp;are &nbsp;compared &nbsp;and &nbsp;the &nbsp;larger<br>
+of &nbsp;two &nbsp;exponents &nbsp;is &nbsp;chosen &nbsp;as &nbsp;the &nbsp;result &nbsp;exponent. &nbsp;The <br>
+difference &nbsp;in &nbsp;the &nbsp;exponents &nbsp;then &nbsp;decides &nbsp;how &nbsp;many &nbsp;times<br>
+we &nbsp;must &nbsp;shift &nbsp;the &nbsp;smaller &nbsp;exponent &nbsp;to &nbsp;the &nbsp;right. &nbsp;Then<br>
+after &nbsp;shifting &nbsp;of &nbsp;exponent, &nbsp;both &nbsp;the &nbsp;mantissas &nbsp;get &nbsp;aligned.<br>
+Finally &nbsp;the &nbsp;addition &nbsp;of &nbsp;both &nbsp;numbers &nbsp;take &nbsp;place &nbsp;followed &nbsp;by<br>
+normalisation &nbsp;of &nbsp;the &nbsp;result &nbsp;in &nbsp;the &nbsp;last &nbsp;segment.<br><br>
+    </h4>
+
+    <h3 id="xyz" class="xyz">
+    <strong>➼ &nbsp;Example</strong><br>
+    </h3>
+
+    <p id="about1" class="about">  
+    <strong>⬗ &nbsp;Let &nbsp;us &nbsp;consider &nbsp;two &nbsp;numbers,</strong><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;X=0.3214*10^3 &nbsp;and &nbsp;Y=0.4500*10^2 <br></p>
+
+<h3 id="xyz" class="xyz">
+<strong>➼ &nbsp;Explanation</strong><br>
+</h3>
+
+<p id="about1" class="about1">
+    &nbsp;&nbsp;&nbsp;First &nbsp;of &nbsp;all &nbsp;the &nbsp;two &nbsp;exponents &nbsp;are &nbsp;subtracted
+ &nbsp;to &nbsp;give &nbsp;3-2=1. &nbsp;Thus &nbsp;3 &nbsp;becomes &nbsp;the &nbsp;exponent &nbsp;of &nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ result &nbsp;and &nbsp;the &nbsp;smaller 
+ exponent &nbsp;is &nbsp;shifted &nbsp;1 &nbsp;times &nbsp;to &nbsp;the &nbsp;right &nbsp;to &nbsp;give<br></p>
+
+ <h4 id="about2" class="about2">
+<strong> Y=0.0450*10^3</strong> 
+ </h4>
+
+ <p id="about1" class="about">  
+    <strong>⬗ Finally &nbsp;the &nbsp;two &nbsp;numbers &nbsp;are &nbsp;added &nbsp;to &nbsp;produce</strong><br></p>
+
+    <h4 id="about2" class="about2">
+        <strong> Z=0.3664*10^3</strong> 
+         </h4><br><br><br><br>
+         <div class="line" id="line"></div><br><br>
+         <h3 id="xyz" class="xyz">
+            2.) &nbsp;Instruction &nbsp;Pipelining ..
+        </h3>
+         
+        <p id="about1" class="about1">
+
+        ➤  &nbsp;An &nbsp;instruction &nbsp;pipeline &nbsp;receives &nbsp;sequential &nbsp;instructions &nbsp;from &nbsp;memory &nbsp;while<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             prior &nbsp;instructions &nbsp;are &nbsp;implemented &nbsp;in &nbsp;other &nbsp;portions.<br><br> 
+       
+             ➤   &nbsp;Pipeline &nbsp;processing &nbsp;can &nbsp;be &nbsp;seen &nbsp;in &nbsp;both &nbsp;the &nbsp;data &nbsp;and
+               &nbsp;instruction &nbsp;streams.<br><br>
+               ➤&nbsp;   In &nbsp;this &nbsp;a &nbsp;stream &nbsp;of &nbsp;instructions &nbsp;can &nbsp;be &nbsp;executed &nbsp;by &nbsp;overlapping &nbsp;fetch, &nbsp;decode<br>
+        &nbsp;&nbsp;&nbsp; &nbsp;and &nbsp;execute &nbsp;phases &nbsp;of &nbsp;an &nbsp;instruction &nbsp;cycle.<br><br> 
+        
+        ➤&nbsp;  This type of technique is used to increase the throughput of the computer system.<br> <br>
+        
+        ➤&nbsp;  An &nbsp;instruction &nbsp;pipeline &nbsp;reads &nbsp;instruction &nbsp;from &nbsp;the &nbsp;memory &nbsp;while &nbsp;previous &nbsp;instructions<br> 
+        &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;are &nbsp;being &nbsp;executed &nbsp;in &nbsp;other &nbsp;segments &nbsp;of &nbsp;the &nbsp;pipeline.<br><br>    
+        
+        ➤&nbsp;  Thus &nbsp;we &nbsp;can  &nbsp;execute  &nbsp;multiple  &nbsp;instructions  &nbsp;simultaneously. 
+        The  &nbsp;pipeline  &nbsp;will  &nbsp;be  &nbsp;more  &nbsp;efficient  &nbsp;if    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;the  &nbsp;instruction  &nbsp;cycle 
+        is  &nbsp;divided  &nbsp;into  &nbsp;segments  &nbsp;of  &nbsp;equal  &nbsp;duration.
+        </p><br><br>
+
+        <p id="about1" class="about"> 
+        ⬗  <strong>&nbsp;In &nbsp;the &nbsp;most &nbsp;general &nbsp;case &nbsp;computer &nbsp;needs &nbsp;to &nbsp;process &nbsp;each
+         instruction &nbsp;in &nbsp;following &nbsp;sequence <br>
+         &nbsp;&nbsp;&nbsp;&nbsp;of &nbsp;steps:</strong><br><br><br>
+
+1. Fetch &nbsp;the &nbsp;instruction &nbsp;from &nbsp;memory &nbsp;(FI)<br>
+2. Decode &nbsp;the &nbsp;instruction &nbsp;(DA)<br>
+3. Calculate &nbsp;the &nbsp;effective &nbsp;address<br>
+4. Fetch &nbsp;the &nbsp;operands &nbsp;from &nbsp;memory &nbsp;(FO)<br>
+5. Execute &nbsp;the &nbsp;instruction &nbsp;(EX)<br>
+6. Store &nbsp;the &nbsp;result &nbsp;in &nbsp;the &nbsp;proper &nbsp;place<br><br><br>
+<strong>⬗ &nbsp;Flowchart &nbsp;for &nbsp;instruction &nbsp;pipeline &nbsp;is &nbsp;shown &nbsp;below.</strong><br><br><br><br>
+
+<img src="C:\Users\ASUS\Downloads\pipeline1.jpg"/><br><br>
+        <p class="caption" id="caption">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;fig :-&nbsp; INSTRUCTION&nbsp; PIPELINING</p><br><br>
+    </p>
+
+    <h3 id="xyz" class="xyz">
+        <strong>➼ &nbsp;Example</strong><br><br><br>
+    </h3>
+
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200513145926/a_page-0001.jpg"/><br><br><br><br>
+
+    <h4 id="about2" class="about2">  
+    Here &nbsp;the &nbsp;instruction &nbsp;is &nbsp;fetched &nbsp;on &nbsp;first &nbsp;clock &nbsp;cycle in &nbsp;segment &nbsp;1.
+    Now &nbsp;it &nbsp;is &nbsp;decoded &nbsp;in <br>
+    next &nbsp;clock &nbsp;cycle, &nbsp;then &nbsp;operands &nbsp;are   
+ fetched &nbsp;and &nbsp;finally &nbsp;the &nbsp;instruction &nbsp;is &nbsp;executed.<br> 
+ &nbsp;&nbsp;We &nbsp;can &nbsp;see &nbsp;that &nbsp;here &nbsp;the &nbsp;fetch &nbsp;and &nbsp;decode &nbsp;phase &nbsp;overlap &nbsp;due &nbsp;to &nbsp;pipelining .&nbsp;By &nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;time &nbsp;the &nbsp;first &nbsp;instruction &nbsp;is &nbsp;being
+    decoded, &nbsp;next &nbsp;instruction &nbsp;is &nbsp;fetched &nbsp;by &nbsp;the &nbsp;pipeline.<br><br>
+
+In &nbsp;case &nbsp;of &nbsp;third &nbsp;instruction &nbsp;we &nbsp;see &nbsp;that &nbsp;it &nbsp;is &nbsp;a &nbsp;branched
+instruction. &nbsp;Here &nbsp;when &nbsp;it <br>
+is &nbsp;being &nbsp;decoded &nbsp;4th &nbsp;instruction &nbsp;is &nbsp;fetched &nbsp;simultaneously. &nbsp;But &nbsp;as 
+it &nbsp;is &nbsp;a &nbsp;branched<br>
+instruction &nbsp;it &nbsp;may &nbsp;point &nbsp;to
+some &nbsp;other &nbsp;instruction &nbsp;when &nbsp;it &nbsp;is &nbsp;decoded. Thus &nbsp;fourth <br>
+instruction &nbsp;is &nbsp;kept &nbsp;on &nbsp;hold &nbsp;until &nbsp;the &nbsp;branched &nbsp;instruction &nbsp;is &nbsp;executed. &nbsp;When &nbsp;it<br>
+gets &nbsp;executed &nbsp;then &nbsp;the &nbsp;fourth &nbsp;instruction &nbsp;is &nbsp;copied &nbsp;back &nbsp;and &nbsp;the &nbsp;other &nbsp;phases<br>
+continue &nbsp;as &nbsp;usual.
+ </h4><br><br><br>s
+ 
+ <h2 id="type1" class="type1">
+    <strong>TYPES OF INSTRUCTION PIPELINING</strong></h2><br>
+    <p id="mint" class="mint">
+    <strong>****There Are Mainly TWO Types Of PIPELINING****<br><br>
+    1.) &nbsp;4 - STAGE &nbsp; INSTRUCTION &nbsp; PIPELINING.<br><br>
+    2.) &nbsp;5 - STAGE &nbsp; INSTRUCTION &nbsp; PIPELINING.<br></strong></p><br><br><br><br><br>
+    
+    <h3 id="xyz" class="xyz">
+        1.) &nbsp;4 - STAGE &nbsp; INSTRUCTION &nbsp; PIPELINING &nbsp;..<br>
+    </h3>
+
+    <p id="about1" class="about1">
+        ⬗ &nbsp;A &nbsp;pipelined &nbsp;processor &nbsp;uses &nbsp;a &nbsp;4-stage
+         instruction &nbsp;pipeline &nbsp;with &nbsp;the &nbsp;following &nbsp;stages: <br><br>
+         ➤ &nbsp;Instruction &nbsp;fetch &nbsp;(IF)<br> 
+         ➤ &nbsp;Instruction &nbsp;decode &nbsp;(ID)<br>
+         ➤ &nbsp;Execute &nbsp;(EX) <br>
+         ➤ &nbsp;Writeback &nbsp;(WB).
+    </p>
+
+<h3 id="xyz" class="xyz">
+        2.) &nbsp;5 - STAGE &nbsp; INSTRUCTION &nbsp; PIPELINING &nbsp;..<br>
+    </h3>
+
+    <p id="about1" class="about1">
+        ⬗ &nbsp;A &nbsp;pipelined &nbsp;processor &nbsp;uses &nbsp;a &nbsp;5-stage
+         instruction &nbsp;pipeline &nbsp;with &nbsp;the &nbsp;following &nbsp;stages: <br><br>
+         ➤ &nbsp;Instruction &nbsp;fetch &nbsp;(IF)<br> 
+         ➤ &nbsp;Instruction &nbsp;decode &nbsp;(ID)<br>
+         ➤ &nbsp;Execute &nbsp;(EX) <br>
+         ➤ &nbsp;Memory &nbsp;Access &nbsp;(MA)<br>
+         ➤ &nbsp;Writeback &nbsp;(WB).<br><br><br>
+    </p>
+
+    <p id="about1" class="about1">
+
+    1.) <strong>&nbsp;Instruction &nbsp;Fetch :-</strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In &nbsp;this &nbsp;stage &nbsp;the &nbsp;CPU &nbsp;reads &nbsp;instructions &nbsp;from &nbsp;the &nbsp;address &nbsp;in
+    &nbsp;the &nbsp;memory &nbsp;whose &nbsp;value<br> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is &nbsp;present &nbsp;in &nbsp;the &nbsp;program &nbsp;counter.<br><br>
+
+    2.) <strong>&nbsp; Instruction &nbsp;Decode :-</strong><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In &nbsp;this &nbsp;stage, &nbsp;instruction &nbsp;is &nbsp;decoded &nbsp;and &nbsp;the &nbsp;register &nbsp;file
+      &nbsp;is &nbsp;accessed &nbsp;to &nbsp;get &nbsp;the &nbsp;values<br> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;from &nbsp;the &nbsp;registers &nbsp;used &nbsp;in &nbsp;the &nbsp;instruction.<br><br>
+
+    3.) <strong>&nbsp;Instruction &nbsp;Execute :-</strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In &nbsp;this &nbsp;stage, &nbsp;ALU &nbsp;operations &nbsp;are &nbsp;performed. <br><br>
+    
+    4.) <strong>&nbsp;Memory &nbsp;Access :-</strong><br> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In &nbsp;this &nbsp;stage &nbsp;, &nbsp;memory &nbsp;operands &nbsp;are &nbsp;read &nbsp;and &nbsp;written
+    &nbsp;from&nbsp;/&nbsp;to &nbsp;the &nbsp;memory &nbsp;that<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;is &nbsp;present &nbsp;in &nbsp;the &nbsp;instruction.<br><br>
+
+    5.) <strong>&nbsp;Write &nbsp;Back :-</strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;In &nbsp;this &nbsp;stage, &nbsp;computed/fetched &nbsp;value &nbsp;is &nbsp;written
+     back &nbsp;to &nbsp;the &nbsp;register &nbsp;present<br>&nbsp;&nbsp;
+     &nbsp;&nbsp;&nbsp;&nbsp;in &nbsp;the &nbsp;instructions.</p><br><br><br><br><br>
+     <div class="line" id="line"></div><br><br><br><br>
+     <h1 id="head" class="head">
+        <strong>
+         DEPENDENCIES&nbsp;..<br><br>
+        </strong>
+     </h1>
+     <div class="line" id="line"></div><br><br><br><br>
+     <h2 id="type" class="type">
+        <strong>TYPES OF DEPENDENCIES</strong></h2><br>
+        <p id="mint" class="mint">
+        <strong>****There Are Mainly Three Types Of PIPELINING  DEPENDENCIES****<br><br><br>
+        1. &nbsp; STRUCTURAL&nbsp; DEPENDENCIES.<br><br>
+        2. &nbsp; CONTROL&nbsp; DEPENDENCIES.<br><br>
+        3. &nbsp; DATA&nbsp; DEPENDENCIES.</strong></p><br><br><br><br><br>
+
+        <h3 id="xyz" class="xyz">
+            1.) &nbsp; STRUCTURAL&nbsp; DEPENDENCIES.<br>
+        </h3>
+        
+        <p id="about1" class="about1">
+        ➤ &nbsp;This &nbsp;dependency &nbsp;arises &nbsp;due &nbsp;to &nbsp;the &nbsp;resource &nbsp;conflict &nbsp;in &nbsp;the &nbsp;pipeline.<br><br>
+        
+        ➤ &nbsp;A  &nbsp;resource    &nbsp;conflict    &nbsp;is    &nbsp;a    &nbsp;situation    &nbsp;when    &nbsp;more    &nbsp;than    &nbsp;one 
+        instruction    &nbsp;tries    &nbsp;to    <br> 
+        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;access    &nbsp;the    &nbsp;same    &nbsp;resource    &nbsp;in    &nbsp;the    &nbsp;same    &nbsp;cycle. A    &nbsp;resource    &nbsp;can    &nbsp;be    &nbsp;a    &nbsp;register,    <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;memory,    &nbsp;or    &nbsp;ALU.
+        </p>
+
+        <h3 id="xyz" class="xyz">
+            <strong>➼ &nbsp;Example</strong><br>
+            </h3>
+
+     <img src="C:\Users\ASUS\Downloads\WhatsApp Image 2023-03-19 at 1.58.33 PM.jpeg"/><br><br><br><br>
+            
+            <p id="about1" class="about1">
+            In &nbsp;the &nbsp;above &nbsp;scenario, &nbsp;in &nbsp;cycle &nbsp;4, &nbsp;instructions &nbsp;I1 &nbsp;and
+             I4 &nbsp;are &nbsp;trying &nbsp;to &nbsp;access &nbsp;same &nbsp;resource &nbsp;(Memory) &nbsp;which
+              introduces &nbsp;a &nbsp;resource &nbsp;conflict. &nbsp;To &nbsp;avoid &nbsp;this &nbsp;problem, 
+              we &nbsp;have &nbsp;to &nbsp;keep &nbsp;the &nbsp;instruction &nbsp;on &nbsp;wait &nbsp;until &nbsp;the 
+              required &nbsp;resource &nbsp;(memory in our case) &nbsp;becomes &nbsp;available.
+               This &nbsp;wait &nbsp;will &nbsp;introduce &nbsp;stalls &nbsp;in &nbsp;the &nbsp;pipeline &nbsp;as &nbsp;shown &nbsp;below:<br><br><br></p>
+
+               <img src="C:\Users\ASUS\Downloads\WhatsApp Image 2023-03-19 at 1.58.33 PM (2).jpeg"/><br><br><br><br>
+
+               <p id="about1" class="about1">
+               <strong>Solution &nbsp;For &nbsp;Structural &nbsp;Dependency :-</strong><br><br>
+                To &nbsp;minimize &nbsp;structural &nbsp;dependency
+                stalls &nbsp;in &nbsp;the pipeline <br>
+                We &nbsp;use &nbsp;a &nbsp;Hardware &nbsp;Mechanism &nbsp;called <strong>Renaming.</strong><br><br> 
+                <strong>Renaming :- </strong><br><br>
+                According &nbsp;to renaming, &nbsp;we &nbsp;divide &nbsp;the &nbsp;memory &nbsp;into &nbsp;two 
+                independent &nbsp;modules &nbsp;used &nbsp;to &nbsp;store &nbsp;the &nbsp;instruction &nbsp;and &nbsp;data &nbsp;separately 
+                called &nbsp;Code &nbsp;memory &nbsp;(CM) &nbsp;and &nbsp;Data &nbsp;memory(DM) &nbsp;respectively.<br>
+                ➤CM &nbsp;will &nbsp;contain &nbsp;all &nbsp;the &nbsp;instructions <br>
+                ➤  DM &nbsp;will &nbsp;contain &nbsp;all &nbsp;the &nbsp;operands &nbsp;that &nbsp;are &nbsp;required &nbsp;for &nbsp;the &nbsp;instructions.<br><br><br><br>
+
+                <img src="C:\Users\ASUS\Downloads\WhatsApp Image 2023-03-19 at 3.48.09 PM.jpeg"/><br><br><br><br></p>
+
+
+        <h3 id="xyz" class="xyz">
+            2.) &nbsp; CONTROL&nbsp; DEPENDENCIES.<br>
+        </h3>
+
+        <p id="about1" class="about1">
+            ➤This &nbsp;type &nbsp;of &nbsp;dependency &nbsp;occurs &nbsp;during &nbsp;the &nbsp;transfer &nbsp;of &nbsp;control &nbsp;instructions &nbsp;such &nbsp;as &nbsp;BRANCH,<br> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CALL, &nbsp;JMP, &nbsp;etc.<br><br>
+
+            ➤ On &nbsp;many &nbsp;instruction &nbsp;architectures, &nbsp;the &nbsp;processor &nbsp;will &nbsp;not &nbsp;know &nbsp;the &nbsp;target &nbsp;address &nbsp;of &nbsp;these &nbsp;instructions <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;when &nbsp;it &nbsp;needs &nbsp;to &nbsp;insert &nbsp;the &nbsp;new &nbsp;instruction &nbsp;into &nbsp;the &nbsp;pipeline.<br><br>
+            ➤  Due &nbsp;to &nbsp;this, &nbsp;unwanted &nbsp;instructions &nbsp;are &nbsp;fed &nbsp;to &nbsp;the &nbsp;pipeline.<br><br></p>
+        <h3 id="xyz" class="xyz">
+            3.) &nbsp; DATA&nbsp; DEPENDENCIES.<br>
+        </h3>
+        
+        <p id="about1" class="about1">
+A &nbsp;position &nbsp;in &nbsp;which &nbsp;an &nbsp;instruction &nbsp;is &nbsp;dependent &nbsp;on &nbsp;a &nbsp;result &nbsp;from &nbsp;a &nbsp;sequentially 
+earlier &nbsp;instruction &nbsp;before &nbsp;it &nbsp;can &nbsp;be &nbsp;done &nbsp;its &nbsp;execution.<br><br>
+
+Let &nbsp;us &nbsp;consider &nbsp;an &nbsp;ADD &nbsp;instruction &nbsp;S, &nbsp;such &nbsp;that S : &nbsp;ADD &nbsp;R1, &nbsp;R2, &nbsp;R3<br><br>
+ Addresses &nbsp;read &nbsp;by &nbsp;S = &nbsp;I(S) = &nbsp;{R2, &nbsp;R3} <br><br>
+ Addresses &nbsp;written &nbsp;by &nbsp;S = &nbsp;O(S) = &nbsp;{R1}<br><br>
+  Now, &nbsp;we &nbsp;say &nbsp;that &nbsp;instruction &nbsp;S2 &nbsp;depends &nbsp;in &nbsp;instruction &nbsp;S1, <br><br></p>
+  when,<br><br>
+  <p id="about2" class="about2">
+  <strong>
+    [I(S1)&nbsp;&nbsp; ∩ &nbsp;&nbsp;O(S2)] &nbsp; ∪ &nbsp; [O(S1)&nbsp;&nbsp; ∩ &nbsp;&nbsp;I(S2)] &nbsp; ∪ &nbsp; [O(S1)&nbsp;&nbsp; ∩ &nbsp;&nbsp;O(S2)] &nbsp;&nbsp; ≠ &nbsp;&nbsp; Φ  </strong><br><br>
+       
+    ⬗ &nbsp;This &nbsp;condition &nbsp;is &nbsp;called &nbsp;Bernstein &nbsp;condition. &nbsp;Three &nbsp;cases &nbsp;exist :-<br><br><br></p>
+
+    <p id="about1" class="about1">
+     ➤ &nbsp;<strong>Flow (data) dependence/ True Dependence :- </strong><br>(S1) ∩ I (S2), S1 → S2 and S1 &nbsp;writes &nbsp;after &nbsp;something &nbsp;read &nbsp;by &nbsp;S2.<br><br>
+     ➤ &nbsp;<strong>Anti-dependence :- </strong><br>(S1) ∩ O(S2), S1 → S2 and &nbsp;S1 &nbsp;reads &nbsp;something &nbsp;before &nbsp;S2 &nbsp;overwrites &nbsp;it.<br><br>
+     ➤ &nbsp;<strong>Output dependence :- </strong><br>(S1) ∩ O(S2), S1 → S2 &nbsp;and &nbsp;both &nbsp;write &nbsp;the &nbsp;same &nbsp;memory &nbsp;location.<br><br></p>
+
+     <h3 id="xyz" class="xyz">
+        <strong>➼ &nbsp;Example :-</strong><br>
+        </h3>
+        <p id="about1" class="about1">
+     ⬗ &nbsp;<strong>Let there be two instructions </strong><br>
+     ➤ &nbsp;I1 &nbsp;and &nbsp;I2 &nbsp;such &nbsp;that: &nbsp;I1 : &nbsp;ADD &nbsp;R1, &nbsp;R2, &nbsp;R3 &nbsp;I2 : &nbsp;SUB &nbsp;R4, &nbsp;R1, &nbsp;R2<br><br> 
+     ➤ When &nbsp;the &nbsp;above &nbsp;instructions &nbsp;are &nbsp;executed &nbsp;in &nbsp;a &nbsp;pipelined &nbsp;processor, &nbsp;then &nbsp;data &nbsp;dependency &nbsp;condition &nbsp;will &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;occur, &nbsp;which &nbsp;means &nbsp;that &nbsp;I2 &nbsp;tries &nbsp;to &nbsp;read &nbsp;the &nbsp;data &nbsp;before &nbsp;I1 &nbsp;writes &nbsp;it, &nbsp;therefore, &nbsp;I2 &nbsp;incorrectly &nbsp;gets &nbsp;the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;old &nbsp;value &nbsp;from &nbsp;I1.<br><br>
+
+      <br>Instruction / Cycle &nbsp;&nbsp;&nbsp;&nbsp;  1  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4<br><br>
+      I1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF &nbsp;&nbsp;&nbsp;ID &nbsp;&nbsp;&nbsp;EX &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DM<br><br>
+      I2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF  &nbsp;&nbsp;&nbsp;ID(Old value) &nbsp;&nbsp;&nbsp;EX<br><br><br>⬗To &nbsp;minimize &nbsp;data &nbsp;dependency &nbsp;stalls &nbsp;in &nbsp;the &nbsp;pipeline,<strong>operand &nbsp;forwarding</strong> &nbsp;is &nbsp;used.<br><br>
+     <strong>Operand &nbsp;Forwarding :-</strong><br><br>
+     ➤ &nbsp;We &nbsp;use &nbsp;the &nbsp;interface &nbsp;registers &nbsp;present &nbsp;between &nbsp;the &nbsp;stages &nbsp;to &nbsp;hold &nbsp;intermediate &nbsp;output &nbsp;so &nbsp;that &nbsp;dependent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;instruction &nbsp;can &nbsp;access &nbsp;new &nbsp;value &nbsp;from &nbsp;the &nbsp;interface &nbsp;register &nbsp;directly.<br><br>
+     ➤ &nbsp;Operand &nbsp;Forwarding &nbsp;can &nbsp;avoid &nbsp;stalls &nbsp;only &nbsp;if &nbsp;the &nbsp;dependent &nbsp;instructions &nbsp;are &nbsp;ALU &nbsp;type &nbsp;instructions.<br><br>
+     ➤ &nbsp;Considering &nbsp;the &nbsp;same &nbsp;example: &nbsp;I1 : &nbsp;ADD &nbsp;R1, &nbsp;R2, &nbsp;R3 &nbsp;I2 : &nbsp;SUB &nbsp;R4, &nbsp;R1, &nbsp;R2.<br><br><br>
+
+     Instruction / Cycle &nbsp;&nbsp;&nbsp;&nbsp;  1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  4<br><br>
+    I1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF  &nbsp;&nbsp;&nbsp;&nbsp;ID  &nbsp;&nbsp;&nbsp;&nbsp;EX  &nbsp;&nbsp;&nbsp;&nbsp;DM<br><br>
+    I2  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EX<br><br><br>  
+    </p>
+    <div class="line" id="line"></div><br><br><br><br>
+    <h1 id="head" class="head">
+        <strong>
+         DATA &nbsp; HAZARDS <br>
+        </strong>
+    </h1>
+    <div class="line" id="line"></div><br><br><br><br>
+        <p id="about" class="about">
+     Data &nbsp;hazards &nbsp;occur &nbsp;when &nbsp;instructions &nbsp;that &nbsp;exhibit &nbsp;data &nbsp;dependence, &nbsp;modify &nbsp;data &nbsp;in &nbsp;different &nbsp;stages &nbsp;of &nbsp;a pipeline. 
+     Hazard &nbsp;cause &nbsp;delays &nbsp;in &nbsp;the &nbsp;pipeline.<br><br><br></p> 
+
+<h2 id="type" class="type">
+        <strong>TYPES OF DATA &nbsp;HAZARDS</strong></h2><br>
+        <p id="mint" class="mint">
+        <strong>****There &nbsp;Are &nbsp;Mainly &nbsp;Three &nbsp;Types &nbsp;Of  &nbsp;DATA  &nbsp;HAZARDS****<br><br><br></strong>
+        1. &nbsp; <strong>RAW&nbsp; HAZARD.</strong></strong><br> (Read after Write) &nbsp;[Flow/True data dependency]<br><br>
+        2. &nbsp; <strong>WAR&nbsp; HAZARD.</strong></strong><br> (Write after Read) &nbsp;[Anti-Data dependency]<br><br>
+        3. &nbsp; <strong>WAW&nbsp; HAZARD.</strong><br> (Write after Write) &nbsp;[Output data dependency]</p><br><br><br><br>
+
+        <p id="about2" class="about2"> 
+      <strong>Let &nbsp;there &nbsp;be &nbsp;two &nbsp;instructions &nbsp;I &nbsp;and &nbsp;J, &nbsp;such &nbsp;that &nbsp;J &nbsp;follow &nbsp;I. <br>
+      Then,</strong><br><br></p>
+
+      <p id="about1" class="about1">
+<strong>⬗ &nbsp;RAW &nbsp;hazard </strong><br><br>
+➤  &nbsp;occurs &nbsp;when &nbsp;instruction &nbsp;J &nbsp;tries &nbsp;to &nbsp;read &nbsp;data &nbsp;before &nbsp;instruction &nbsp;I &nbsp;writes &nbsp;it.<br>
+➤  &nbsp;Eg: &nbsp;R2 ← &nbsp; R5 + R3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp; R4 ← &nbsp; R2 + &nbsp;R3<br><br><br>
+
+ <strong>⬗ &nbsp;WAR &nbsp;hazard</strong><br><br>
+➤  &nbsp;occurs &nbsp;when &nbsp;instruction &nbsp;J &nbsp;tries &nbsp;to &nbsp;write &nbsp;data &nbsp;before &nbsp;instruction &nbsp;I &nbsp;reads &nbsp;it.<br>
+➤  &nbsp;Eg: &nbsp;R4 ← &nbsp; R1 + R5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;  R5 ← &nbsp; R1 +&nbsp;R2<br><br><br>
+
+<strong>⬗ &nbsp;WAW &nbsp;hazard</strong><br><br>
+➤  &nbsp;occurs &nbsp;when &nbsp;instruction &nbsp;J &nbsp;tries &nbsp;to &nbsp;write &nbsp;output &nbsp;before &nbsp;instruction &nbsp;I &nbsp;writes &nbsp;it.<br> 
+➤  &nbsp;Eg: &nbsp;R2 ← &nbsp; R4 + R7<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;  R2 ← &nbsp; R1 +&nbsp;R3.<br><br></p>
+
+<p id="about2" class="about2">
+<strong>WAR &nbsp;and &nbsp;WAW Hazards &nbsp;occur &nbsp;during &nbsp;the &nbsp;out-of-order &nbsp;execution &nbsp;of &nbsp;the &nbsp;instructions.</strong>  
+</p><br>
+
+<div class="line" id="line"></div><br>
+<div class="line" id="line"></div>
+        
+        
+
+    </body>
+</html>

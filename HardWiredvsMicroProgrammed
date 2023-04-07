@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<title>
+poojapunyani6
+</title>
+</head>
+<style>
+#line{
+    width:100%;
+    height:10px;
+    background-color: black;
+}
+body{
+    background:black;
+    color:white;
+    }
+
+    #abc{text-align:center;
+         font-size:60px;
+         padding-top:10px;
+         padding-left:0%;
+         padding-bottom:1%;
+         padding-right:0px;
+         
+    }
+    #hardwired{font-size:50px;
+        padding-bottom:0%;
+         } 
+         #name{padding-top:0%;
+               font-size:40 px;  
+               padding-bottom:2%;
+              }    
+
+    img{
+        width:50%;
+        padding-bottom: 5%;
+        padding-left: 20%;
+        
+    }
+    p{
+        font-size:35px;
+    }
+
+</style>
+<body>
+    <div class="line" id="line"></div> 
+<div class="abc" id="abc">
+    <h1 id="abc" class="abc">
+HARDWIRED CONTROL UNIT &<br> 
+MICRO-PROGRAMMED CONTROL UNIT....
+</h1>
+</div>
+<div class="line" id="line"></div>
+<h2 class="hardwired" id="hardwired">
+HARDWIRED
+</h2>
+<div class="name" id="name">
+<p>
+*Depend Upon Hardware.<br> 
+*Used By RISC.<br>   
+*Diagnose Is Hard.<br>
+*Complex Structure.<br>
+*No Use Of Memory.<br>
+*difficulty occurs In complex instructions.<br>
+*Fast Speed.<br>
+*No AI's And Technology Used.<br>
+*Non-Reprogrammable.<br>
+*Software Can't Be Updated.<br>
+</p>
+</div>
+<img src="https://www.geeksforgeeks.org/wp-content/uploads/1-9.jpg" height="300">
+<div class="line" id="line"></div>
+
+<h2 class="hardwired" id="hardwired">
+MICRO-PROGRAMMED
+</h2>
+<p id="name" class="name">
+    *Depend Upon Software.<br> 
+    *Used By CISC.<br>   
+    *Diagnose Is Easy.<br>
+    *Simple Structure.<br>
+    *Memory Is Used.<br>
+    *No difficulty occurs In complex instructions.<br>
+    *Slow Speed.<br>
+    *AI's And Technology Are Both  Used.<br>
+    *Reprogrammable.<br>
+    *Software Can Be Updated.<br>
+    </p>
+    <img src="https://media.geeksforgeeks.org/wp-content/uploads/controlunit.png" height="300">
+    <div class="line" id="line"></div>
+    <div class="line" id="line"></div>
+</body>
+</html>
